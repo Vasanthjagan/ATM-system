@@ -25,5 +25,14 @@ if age>=18:
             print(bal)
         case 3:
             print("Enter your Withdrawal Amount:")
+            withdraw = float(input("Enter withdraw amount: "))
+            if withdraw > bal:
+                    print("Insufficient balance!")
+            else:
+                    bal -= withdraw
+                    print("Please collect your cash.")
+                    print("Remaining balance:", bal)
+        case 4:
+              print("exit")
 else:
     print("you cannot access the ATM machine")
