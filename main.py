@@ -10,4 +10,3 @@ if age>=18:
     print("you can access the ATM machine")
 else: 
     print("you cannot access the ATM machine")
-    
