@@ -13,7 +13,9 @@ if age>=18:
     print("2.Deposit")
     print("3.Withdrawal")
     print("4.Exit")
-    match bal:
+
+    choice=int(input("Enter the choice"))
+    match choice:
         case 1:
             print("Your balance is: "+bal)
         case 2:
